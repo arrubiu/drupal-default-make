@@ -26,7 +26,8 @@ projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcr
 ; MODULES - Mail
 ; MODULES - Editing contents
 
-
+; permette di impostare un limite di tempo o di revisioni oltre il quale non è possibile più modificare per l'autore il contenuto
+projects[edit_limit][subdir] = "sites/all/modules/contrib/edit_limit"
 
 
 
