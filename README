@@ -9,6 +9,9 @@ Modules are categorized, so it's simple to search and add modules, libraries or 
 Contributors should add short descriptions so will be possible to understand
 what a module does.
 
+There are many modules so you should delete those are not useful for your project,
+but it's a good point of start.
+
 
 Instructions
 ============
