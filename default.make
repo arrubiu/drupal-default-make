@@ -18,6 +18,7 @@ projects[drupal][version] = "7.12"
 ; MODULES - Performance
 ; MODULES - System
 ; MODULES - Mail
+; MODULES - Editing contents
 
 
 
