@@ -10,6 +10,20 @@ Contributors should add short descriptions so will be possible to understand
 what a module does.
 
 
+Instructions
+============
+
+Modifify default.make to add modules, libraries or themes.
+To add items please follow this rules:
+
+ - always search and use the right category for the item
+ - don't leave empty lines betweens items
+ - don't insert too long descriptions or break it in more lines, if necessary
+ - use only english
+ - don't insert version number
+ - add an evident comment if a module is in DEV status or is signed as "yellow"
+
+
 License
 =======
 
