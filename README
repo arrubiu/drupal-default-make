@@ -25,6 +25,7 @@ To add items please follow this rules:
  - use only english
  - don't insert version number
  - add an evident comment if a module is in DEV status or is signed as "yellow"
+ - inside categories, add items in alphabetical order
 
 
 License
