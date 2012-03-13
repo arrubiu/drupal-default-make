@@ -1,4 +1,27 @@
-Testing
-Testing1
+Drupal Default Make File
+========================
 
-cool!
+This is a simple project that stores a "default" make file for Drupal installations.
+With this make file you will not have to download every time modules and dependencies,
+but this make have many useful modules (modules that we consider useful).
+
+Modules are categorized, so it's simple to search and add modules, libraries or themes.
+Contributors should add short descriptions so will be possible to understand
+what a module does.
+
+
+License
+=======
+
+This script is licensed under GNU GENERAL PUBLIC LICENSE.
+See LICENSE.txt for informations.
+
+
+Credits
+=======
+
+This project was started by Sergio Durzu (sergio.durzu@gmail.com) on March 2012.
+
+Contributors:
+  - caprowsky
+
