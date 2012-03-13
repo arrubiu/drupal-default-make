@@ -9,12 +9,13 @@ projects[drupal][version] = "7.12"
 ; MODULES - Fields
 ; MODULES - Feeds
 ; MODULES - Views
-; MODULES - Context
 
+projects[views_bulk_operations][subdir] = "sites/all/modules/contrib/views_bulk_operations"
+
+; MODULES - Context
 ; MODULES - Panels
 
 projects[panels][subdir] = "sites/all/modules/contrib/panels"
-
 projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcrumbs"
 
 ; MODULES - i18n
@@ -24,14 +25,15 @@ projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcr
 ; MODULES - Performance
 ; MODULES - System
 ; MODULES - Mail
+
+
 ; MODULES - Editing contents
 
-; permette di impostare un limite di tempo o di revisioni oltre il quale non è possibile più modificare per l'autore il contenuto
+;permette di impostare un limite di tempo o di revisioni oltre il quale non è possibile più modificare per l'autore il contenuto
 projects[edit_limit][subdir] = "sites/all/modules/contrib/edit_limit"
 
 
 
-projects[views_bulk_operations][subdir] = "sites/all/modules/contrib/views_bulk_operations"
 
 projects[addressfield][subdir] = "sites/all/modules/contrib/addressfield"
 
