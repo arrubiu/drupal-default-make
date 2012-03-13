@@ -12,6 +12,10 @@ projects[ctools][subdir] = "sites/all/modules/contrib/ctools"
 ; MODULES - Generic modules
 ; MODULES - Fields
 ; MODULES - Feeds
+; MODULES - Developer
+
+projects[devel][subdir] = "sites/all/modules/contrib/devel"
+
 ; MODULES - Views
 
 projects[better_exposed_filters][subdir] = "sites/all/modules/contrib/better_exposed_filters"
