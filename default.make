@@ -4,6 +4,10 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.12"
 
+; MODULES - Mandatory
+
+projects[ctools][subdir] = "sites/all/modules/contrib/ctools"
+
 
 ; MODULES - Generic modules
 ; MODULES - Fields
@@ -14,6 +18,10 @@ projects[better_exposed_filters][subdir] = "sites/all/modules/contrib/better_exp
 projects[views_bulk_operations][subdir] = "sites/all/modules/contrib/views_bulk_operations"
 
 ; MODULES - Context
+
+projects[context][subdir] = "sites/all/modules/contrib/context"
+
+
 ; MODULES - Panels
 
 projects[panels][subdir] = "sites/all/modules/contrib/panels"
@@ -39,18 +47,11 @@ projects[addressfield][subdir] = "sites/all/modules/contrib/addressfield"
 ;permette di impostare un limite di tempo o di revisioni oltre il quale non è possibile più modificare per l'autore il contenuto
 projects[edit_limit][subdir] = "sites/all/modules/contrib/edit_limit"
 
-
 projects[auto_nodetitle][subdir] = "sites/all/modules/contrib/auto_nodetitle"
-
-
 
 projects[boxes][subdir] = "sites/all/modules/contrib/boxes"
 
-projects[ctools][subdir] = "sites/all/modules/contrib/ctools"
-
 projects[node_clone][subdir] = "sites/all/modules/contrib/node_clone"
-
-projects[context][subdir] = "sites/all/modules/contrib/context"
 
 projects[css_injector][subdir] = "sites/all/modules/contrib/css_injector"
 
