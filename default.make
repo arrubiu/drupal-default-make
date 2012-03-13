@@ -10,6 +10,7 @@ projects[drupal][version] = "7.12"
 ; MODULES - Feeds
 ; MODULES - Views
 
+projects[better_exposed_filters][subdir] = "sites/all/modules/contrib/better_exposed_filters"
 projects[views_bulk_operations][subdir] = "sites/all/modules/contrib/views_bulk_operations"
 
 ; MODULES - Context
@@ -26,6 +27,12 @@ projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcr
 ; MODULES - System
 ; MODULES - Mail
 
+; MODULES - Taxonomy
+; MODULES - Menu
+
+; MODULES - Geolocation
+
+projects[addressfield][subdir] = "sites/all/modules/contrib/addressfield"
 
 ; MODULES - Editing contents
 
@@ -33,13 +40,9 @@ projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcr
 projects[edit_limit][subdir] = "sites/all/modules/contrib/edit_limit"
 
 
-
-
-projects[addressfield][subdir] = "sites/all/modules/contrib/addressfield"
-
 projects[auto_nodetitle][subdir] = "sites/all/modules/contrib/auto_nodetitle"
 
-projects[better_exposed_filters][subdir] = "sites/all/modules/contrib/better_exposed_filters"
+
 
 projects[boxes][subdir] = "sites/all/modules/contrib/boxes"
 
