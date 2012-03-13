@@ -1,7 +1,7 @@
 Drupal Default Make File
 ========================
 
-This is a simple project that stores a "default" make file for Drupal installations.
+This is a simple project that stores a "default" make file for Drupal 7 installations.
 With this make file you will not have to download every time modules and dependencies,
 but this make have many useful modules (modules that we consider useful).
 
