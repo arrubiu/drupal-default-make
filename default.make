@@ -10,7 +10,13 @@ projects[drupal][version] = "7.12"
 ; MODULES - Feeds
 ; MODULES - Views
 ; MODULES - Context
+
 ; MODULES - Panels
+
+projects[panels][subdir] = "sites/all/modules/contrib/panels"
+
+projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcrumbs"
+
 ; MODULES - i18n
 ; MODULES - Rules
 ; MODULES - Search engines
@@ -119,10 +125,6 @@ projects[nodereference_url][subdir] = "sites/all/modules/contrib/nodereference_u
 projects[override_node_options][subdir] = "sites/all/modules/contrib/override_node_options"
 
 projects[page_title][subdir] = "sites/all/modules/contrib/page_title"
-
-projects[panels][subdir] = "sites/all/modules/contrib/panels"
-
-projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcrumbs"
 
 projects[pathauto][subdir] = "sites/all/modules/contrib/pathauto"
 
