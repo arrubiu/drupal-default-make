@@ -14,7 +14,9 @@ projects[ctools][subdir] = "sites/all/modules/contrib/ctools"
 ; MODULES - Feeds
 ; MODULES - Developer
 
+projects[css_injector][subdir] = "sites/all/modules/contrib/css_injector"
 projects[devel][subdir] = "sites/all/modules/contrib/devel"
+projects[diff][subdir] = "sites/all/modules/contrib/diff"
 
 ; MODULES - Views
 
@@ -34,6 +36,9 @@ projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcr
 ; MODULES - i18n
 ; MODULES - Rules
 ; MODULES - Search engines
+
+projects[facetapi][subdir] = "sites/all/modules/contrib/facetapi"
+
 ; MODULES - Breadcrumbs
 ; MODULES - Performance
 ; MODULES - System
@@ -57,15 +62,13 @@ projects[boxes][subdir] = "sites/all/modules/contrib/boxes"
 
 projects[node_clone][subdir] = "sites/all/modules/contrib/node_clone"
 
-projects[css_injector][subdir] = "sites/all/modules/contrib/css_injector"
 
-projects[facetapi][subdir] = "sites/all/modules/contrib/facetapi"
 
 projects[custom_breadcrumbs][subdir] = "sites/all/modules/contrib/custom_breadcrumbs"
 
 projects[date][subdir] = "sites/all/modules/contrib/date"
 
-projects[diff][subdir] = "sites/all/modules/contrib/diff"
+
 
 projects[elysia_cron][subdir] = "sites/all/modules/contrib/elysia_cron"
 
