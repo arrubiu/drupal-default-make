@@ -8,66 +8,76 @@ projects[drupal][version] = "7.12"
 
 projects[ctools][subdir] = "sites/all/modules/contrib/ctools"
 
+; MODULES - Breadcrumbs
 
-; MODULES - Generic modules
-; MODULES - Fields
-; MODULES - Feeds
+; MODULES - Context
+
+projects[context][subdir] = "sites/all/modules/contrib/context"
+
 ; MODULES - Developer
 
 projects[css_injector][subdir] = "sites/all/modules/contrib/css_injector"
 projects[devel][subdir] = "sites/all/modules/contrib/devel"
 projects[diff][subdir] = "sites/all/modules/contrib/diff"
 
-; MODULES - Views
+; MODULES - Editing contents
 
-projects[better_exposed_filters][subdir] = "sites/all/modules/contrib/better_exposed_filters"
-projects[views_bulk_operations][subdir] = "sites/all/modules/contrib/views_bulk_operations"
+; MODULES - Feeds
 
-; MODULES - Context
+; MODULES - Fields
 
-projects[context][subdir] = "sites/all/modules/contrib/context"
+projects[field_group][subdir] = "sites/all/modules/contrib/field_group"
 
+; MODULES - Generic modules
+
+; MODULES - Geolocation
+
+projects[addressfield][subdir] = "sites/all/modules/contrib/addressfield"
+
+; MODULES - International
+
+; MODULES - Media
+
+projects[imagecrop][subdir] = "sites/all/modules/contrib/imagecrop"
+
+; MODULES - Menu
 
 ; MODULES - Panels
 
 projects[panels][subdir] = "sites/all/modules/contrib/panels"
 projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcrumbs"
 
-; MODULES - i18n
 ; MODULES - Rules
+
 ; MODULES - Search engines
 
 projects[facetapi][subdir] = "sites/all/modules/contrib/facetapi"
 
-; MODULES - Breadcrumbs
+; MODUELS - Statistics
 ; MODULES - Performance
 ; MODULES - System
 ; MODULES - Mail
 
 ; MODULES - Taxonomy
-; MODULES - Menu
 
-; MODULES - Geolocation
+; MODULES - Views
 
-projects[addressfield][subdir] = "sites/all/modules/contrib/addressfield"
+projects[better_exposed_filters][subdir] = "sites/all/modules/contrib/better_exposed_filters"
+projects[views_bulk_operations][subdir] = "sites/all/modules/contrib/views_bulk_operations"
 
-; MODULES - Editing contents
+
 
 ;permette di impostare un limite di tempo o di revisioni oltre il quale non è possibile più modificare per l'autore il contenuto
 projects[edit_limit][subdir] = "sites/all/modules/contrib/edit_limit"
+projects[node_clone][subdir] = "sites/all/modules/contrib/node_clone"
 
 projects[auto_nodetitle][subdir] = "sites/all/modules/contrib/auto_nodetitle"
-
-projects[boxes][subdir] = "sites/all/modules/contrib/boxes"
-
-projects[node_clone][subdir] = "sites/all/modules/contrib/node_clone"
 
 
 
 projects[custom_breadcrumbs][subdir] = "sites/all/modules/contrib/custom_breadcrumbs"
 
 projects[date][subdir] = "sites/all/modules/contrib/date"
-
 
 
 projects[elysia_cron][subdir] = "sites/all/modules/contrib/elysia_cron"
@@ -90,8 +100,6 @@ projects[feeds_tamper][subdir] = "sites/all/modules/contrib/feeds_tamper"
 
 projects[feeds_xpathparser][subdir] = "sites/all/modules/contrib/feeds_xpathparser"
 
-projects[field_group][subdir] = "sites/all/modules/contrib/field_group"
-
 projects[media][subdir] = "sites/all/modules/contrib/media"
 
 projects[styles][subdir] = "sites/all/modules/contrib/styles"
@@ -103,8 +111,6 @@ projects[google_analytics][subdir] = "sites/all/modules/contrib/google_analytics
 projects[hint][subdir] = "sites/all/modules/contrib/hint"
 
 projects[i18n][subdir] = "sites/all/modules/contrib/i18n"
-
-projects[imagecrop][subdir] = "sites/all/modules/contrib/imagecrop"
 
 projects[jcarousel][subdir] = "sites/all/modules/contrib/jcarousel"
 
@@ -178,7 +184,6 @@ projects[views_php][subdir] = "sites/all/modules/contrib/views_php"
 ; THEME ENGINES & THEMES
 
 projects[fusion][subdir] = "sites/all/themes"
-
 projects[fusion][omega] = "sites/all/themes"
 
 
