@@ -56,10 +56,22 @@ projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcr
 
 ; MODULES - Search engines
 
+projects[search_api][subdir] = "sites/all/modules/contrib/search_api"
+projects[search_api_solr][subdir] = "sites/all/modules/contrib/search_api_solr"
 projects[facetapi][subdir] = "sites/all/modules/contrib/facetapi"
+projects[facetapi_bonus][subdir] = "sites/all/modules/contrib/facetapi_bonus"
+
+; MODULES - SEO
+
+projects[google_analytics][subdir] = "sites/all/modules/contrib/google_analytics"
+projects[page_title][subdir] = "sites/all/modules/contrib/page_title"
+projects[pathauto][subdir] = "sites/all/modules/contrib/pathauto"
 
 ; MODUELS - Statistics
 ; MODULES - Performance
+
+projects[varnish][subdir] = "sites/all/modules/contrib/varnish"
+
 ; MODULES - System
 ; MODULES - Mail
 
@@ -67,6 +79,9 @@ projects[facetapi][subdir] = "sites/all/modules/contrib/facetapi"
 
 ; MODULES - Views
 
+projects[views][subdir] = "sites/all/modules/contrib/views"
+projects[views_autocomplete_filters][subdir] = "sites/all/modules/contrib/views_autocomplete_filters"
+projects[views_php][subdir] = "sites/all/modules/contrib/views_php"
 projects[better_exposed_filters][subdir] = "sites/all/modules/contrib/better_exposed_filters"
 projects[views_bulk_operations][subdir] = "sites/all/modules/contrib/views_bulk_operations"
 
@@ -91,7 +106,7 @@ projects[email][subdir] = "sites/all/modules/contrib/email"
 
 projects[entity][subdir] = "sites/all/modules/contrib/entity"
 
-projects[facetapi_bonus][subdir] = "sites/all/modules/contrib/facetapi_bonus"
+
 
 projects[features][subdir] = "sites/all/modules/contrib/features"
 
@@ -102,8 +117,6 @@ projects[media][subdir] = "sites/all/modules/contrib/media"
 projects[styles][subdir] = "sites/all/modules/contrib/styles"
 
 projects[geofield][subdir] = "sites/all/modules/contrib/geofield"
-
-projects[google_analytics][subdir] = "sites/all/modules/contrib/google_analytics"
 
 projects[hint][subdir] = "sites/all/modules/contrib/hint"
 
@@ -141,19 +154,11 @@ projects[nodereference_url][subdir] = "sites/all/modules/contrib/nodereference_u
 
 projects[override_node_options][subdir] = "sites/all/modules/contrib/override_node_options"
 
-projects[page_title][subdir] = "sites/all/modules/contrib/page_title"
-
-projects[pathauto][subdir] = "sites/all/modules/contrib/pathauto"
-
 projects[quicktabs][subdir] = "sites/all/modules/contrib/quicktabs"
 
 projects[redirect][subdir] = "sites/all/modules/contrib/redirect"
 
 projects[rules][subdir] = "sites/all/modules/contrib/rules"
-
-projects[search_api][subdir] = "sites/all/modules/contrib/search_api"
-
-projects[search_api_solr][subdir] = "sites/all/modules/contrib/search_api_solr"
 
 projects[site_verify][subdir] = "sites/all/modules/contrib/site_verify"
 
@@ -169,13 +174,9 @@ projects[uuid][subdir] = "sites/all/modules/contrib/uuid"
 
 projects[variable][subdir] = "sites/all/modules/contrib/variable"
 
-projects[varnish][subdir] = "sites/all/modules/contrib/varnish"
 
-projects[views][subdir] = "sites/all/modules/contrib/views"
 
-projects[views_autocomplete_filters][subdir] = "sites/all/modules/contrib/views_autocomplete_filters"
 
-projects[views_php][subdir] = "sites/all/modules/contrib/views_php"
 
 
 ; THEME ENGINES & THEMES
