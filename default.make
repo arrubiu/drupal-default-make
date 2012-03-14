@@ -102,6 +102,10 @@ projects[panels_breadcrumbs][subdir] = "sites/all/modules/contrib/panels_breadcr
 projects[memcache][subdir] = "sites/all/modules/contrib/memcache"
 projects[varnish][subdir] = "sites/all/modules/contrib/varnish"
 
+; MODULES - Permissions
+
+projects[view_unpublished][subdir] = "sites/all/modules/contrib/varnish"
+
 ; MODULES - Quicktab
 
 projects[quicktabs][subdir] = "sites/all/modules/contrib/quicktabs"
