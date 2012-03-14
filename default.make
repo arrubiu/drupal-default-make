@@ -124,6 +124,8 @@ projects[page_title][subdir] = "sites/all/modules/contrib/page_title"
 projects[pathauto][subdir] = "sites/all/modules/contrib/pathauto"
 projects[redirect][subdir] = "sites/all/modules/contrib/redirect"
 projects[site_verify][subdir] = "sites/all/modules/contrib/site_verify"
+projects[globalredirect][subdir] = "sites/all/modules/contrib/globalredirect"
+
 
 ; MODUELS - Statistics
 
