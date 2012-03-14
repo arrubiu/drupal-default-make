@@ -24,6 +24,11 @@ projects[diff][subdir] = "sites/all/modules/contrib/diff"
 
 ; MODULES - Feeds
 
+projects[feeds][subdir] = "sites/all/modules/contrib/feeds"
+projects[feeds_fetcher_directory][subdir] = "sites/all/modules/contrib/feeds_fetcher_directory"
+projects[feeds_tamper][subdir] = "sites/all/modules/contrib/feeds_tamper"
+projects[feeds_xpathparser][subdir] = "sites/all/modules/contrib/feeds_xpathparser"
+
 ; MODULES - Fields
 
 projects[field_group][subdir] = "sites/all/modules/contrib/field_group"
@@ -91,14 +96,6 @@ projects[facetapi_bonus][subdir] = "sites/all/modules/contrib/facetapi_bonus"
 projects[features][subdir] = "sites/all/modules/contrib/features"
 
 projects[features_orphans][subdir] = "sites/all/modules/contrib/features_orphans"
-
-projects[feeds][subdir] = "sites/all/modules/contrib/feeds"
-
-projects[feeds_fetcher_directory][subdir] = "sites/all/modules/contrib/feeds_fetcher_directory"
-
-projects[feeds_tamper][subdir] = "sites/all/modules/contrib/feeds_tamper"
-
-projects[feeds_xpathparser][subdir] = "sites/all/modules/contrib/feeds_xpathparser"
 
 projects[media][subdir] = "sites/all/modules/contrib/media"
 
