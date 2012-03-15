@@ -112,6 +112,8 @@ projects[quicktabs][subdir] = "sites/all/modules/contrib/quicktabs"
 
 ; MODULES - Rules
 
+; Rules bonus pack - DEV module (now)
+projects[rules][subdir] = "sites/all/modules/contrib/rb"
 projects[rules][subdir] = "sites/all/modules/contrib/rules"
 projects[rules][subdir] = "sites/all/modules/contrib/rules_forms"
 
