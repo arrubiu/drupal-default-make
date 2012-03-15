@@ -113,6 +113,10 @@ projects[quicktabs][subdir] = "sites/all/modules/contrib/quicktabs"
 ; MODULES - Rules
 
 projects[rules][subdir] = "sites/all/modules/contrib/rules"
+projects[rules][subdir] = "sites/all/modules/contrib/rules_forms"
+
+; create rules trigger based on link
+projects[rules][subdir] = "sites/all/modules/contrib/rules_link"
 
 ; MODULES - Search engines
 
