@@ -150,6 +150,9 @@ projects[variable][subdir] = "sites/all/modules/contrib/variable"
 
 ; MODULES - Taxonomy
 
+; Manage Tag Clouds
+projects[cctags][subdir] = "sites/all/modules/contrib/cctags"
+
 projects[taxonomy_csv][subdir] = "sites/all/modules/contrib/taxonomy_csv"
 projects[taxonomy_csv][subdir] = "sites/all/modules/contrib/taxonomy_manager"
 projects[taxonomy_csv][subdir] = "sites/all/modules/contrib/term_merge"
