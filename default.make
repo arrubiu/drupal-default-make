@@ -33,6 +33,7 @@ projects[auto_nodetitle][subdir] = "sites/all/modules/contrib/auto_nodetitle"
 projects[edit_limit][subdir] = "sites/all/modules/contrib/edit_limit"
 projects[linkit][subdir] = "sites/all/modules/contrib/linkit"
 projects[node_clone][subdir] = "sites/all/modules/contrib/node_clone"
+projects[node_limit][subdir] = "sites/all/modules/contrib/node_limit"
 projects[override_node_options][subdir] = "sites/all/modules/contrib/override_node_options"
 
 ; MODULES - Features
